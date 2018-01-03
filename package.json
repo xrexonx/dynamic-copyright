@@ -1,0 +1,25 @@
+{
+  "name": "dynamic-copyright",
+  "version": "0.0.1",
+  "description": "Dynamic year for footer copyrights",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./index.js -d lib"
+  },
+  "keywords": [
+    "xrexonx",
+    "javascript",
+    "copyright",
+    "js"
+  ],
+  "author": {
+    "name": "Rexon A. De los Reyes",
+    "email": "rexondelosreyes88@gmail.com",
+    "url": "xrexonx.github.com"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
